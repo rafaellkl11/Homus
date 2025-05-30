@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(204, 203, 203);
+    font-family: 'Courier New', Courier, monospace;
+    width: 800px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+img{
+    width: 1000px;
+    border-radius: 10px;
+    border: solid 2px rgb(66, 66, 66);
+}
+#carrosel{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+button{
+    margin: 15px;
+    border-radius: 10px;
+    border: solid 2px rgb(66, 66, 66);
+}
+::-webkit-scrollbar{
+    background-color: grey;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 6px;
+    border: solid 1px rgb(46, 46, 46);
+}
