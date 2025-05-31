@@ -8,7 +8,8 @@ h1{
     text-align: center;
 }
 img{
-    width: 1000px;
+    width: 651px;
+    height: 336px;
     border-radius: 10px;
     border: solid 2px rgb(66, 66, 66);
 }
@@ -21,6 +22,15 @@ button{
     margin: 15px;
     border-radius: 10px;
     border: solid 2px rgb(66, 66, 66);
+    transition: all 0.5s ease;
+}
+button:hover{
+    border: solid 2px white;
+    color:white;
+    background-color: rgb(66, 66, 66);
+}
+button:active{
+    transform: scale(0.7);
 }
 ::-webkit-scrollbar{
     background-color: grey;
